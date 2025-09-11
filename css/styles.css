@@ -204,7 +204,14 @@ html{
             grid-row: 3/4;
             align-self: center;
         }
-
+.form-iniciar-sesion{
+    justify-items: center;
+    justify-self: center;
+    padding: .3125rem;
+}
+.form-iniciar-sesion button{
+    justify-self: center;
+}
 /*section-kids*/
 .section-kids{
     display: flex;
