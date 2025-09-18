@@ -44,7 +44,6 @@ html{
 .boton-buscador{
     padding: .9375rem 1.25rem .9375rem 1.25rem;
     border-radius: 20px;
-    /*background-color:azure;*/
     color: #012d69;
     border-color:#012d69;
 }    
@@ -102,8 +101,6 @@ html{
     gap: 2.5rem;
     padding: none;
     margin: none;
-    /*background-color: azure;*/
-    
 }
     
 .navbar-principal li a{
@@ -414,10 +411,36 @@ font-size: 18px;
 /*Medidas mobile 425px */
 @media(max-width:425px)
     {
-         .imagen-presentacion-principal img{
+        
+        .imagen-presentacion-principal img{
             width: 15.625rem;
         }
-
+        .header-line{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: none;
+        }
+        .navbar-principal{
+            width: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            padding: none;
+            margin: none;
+            text-align: center;
+        }
+        .navbar-principal li a{
+            text-decoration: underline;
+            color:#012d69;
+        }
+        .navbar-principal li a:hover{
+            background-color:#022453;
+            border-radius: 15px;
+            color: azure;
+            padding: 8px;
+        }
         .section-clip-on{
             width: 100%;
             display: flex;
