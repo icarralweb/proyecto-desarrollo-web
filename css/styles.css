@@ -83,7 +83,7 @@ html{
 }
 .ventas-whatsapp div img{
     width: 30px;
-    margin-left: .625rem;
+    /*margin-left: .625rem;*/
 }
 .ventas-whatsapp div a{
     padding-left: .625rem;
@@ -242,7 +242,7 @@ align-items: center;
 justify-content: center;
 /*background-color: azure;*/
 }
-
+/*caja testimonio*/
 .box-testimonio{
 height: 29.375rem;
 padding: 25px;
@@ -302,14 +302,17 @@ font-size: 18px;
 }
 /*================== Pie de pagina ==================*/
 .logo_pie{
-    width: 300px;
+    /*width: 300px;*/
     margin-top: .9375rem;
     margin-left: .625rem;
+}
+.logo_pie a img{
+    width: 200px;
 }
 .pie_de_pagina{
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 22% 22% 22% 22%;
     gap: .625rem;
     justify-content: center;
     background-color: #012d69;
@@ -376,16 +379,138 @@ font-size: 18px;
         .imagen-presentacion-principal img{
             width: 15.625rem;
         }
-        
+        .box-testimonio-in div h4 {
+            margin: 5px 0;
+            font-size: 16px;
+            }
+        .logo_pie{
+            margin-top: .9375rem;
+            margin-left: .0625rem;
+            }
+        .logo_pie a img{
+            width: 170px;
+            }
+        .pie_de_pagina{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 24% 24% 24% 24%;
+            gap: .3125rem;
+            }
+        .navbar_pie li a{
+            font-size: 14px;
+            color: azure;
+            }
+        .pie_de_pagina h3{
+            font-size: 14px; 
+            }
+        .contactanos_pie p{
+            font-size: 14px; 
+            }
+        .ventas-whatsapp div img{
+            width: 20px;
+            }
     }
 
 /*Medidas mobile 425px */
 @media(max-width:425px)
     {
-        .section-clip-on
-        {
-        background-color: rgb(216, 114, 114);
+         .imagen-presentacion-principal img{
+            width: 15.625rem;
         }
+
+        .section-clip-on{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: .625rem;
+            }
+        .descripcion-articulo-principal{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            }
+
+        .descripcion-articulo-principal h1{
+            font-size: 26px;
+            margin-bottom: .9375rem;
+            text-align: center;
+            }
+        .descripcion-articulo-principal p{
+            font-size: 16px;
+            text-align: center;
+            width: 90%;
+            margin-bottom: .9375rem;
+            }
+        .section-kids{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            padding: .3125rem;
+            }
+        .section-carrito-principal{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            padding: .625rem;
+            }
+        .section-testimonios{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5625rem;            
+            }
+        .box-testimonio{
+            height: 28.75rem;
+            width: 80%;
+            padding: 25px;
+            background-color: #012d69;
+            border-radius: 2.5rem;
+            margin-top: .625rem;
+            color: azure;
+            }
+        .box-testimonio-in div h4 {
+            margin: 5px 0;
+            font-size: 16px;
+            }
+        .logo_pie{
+            margin-top: .9375rem;
+            
+            }
+        .logo_pie a img{
+            width: 200px;
+            }
+        .pie_de_pagina{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        .navbar_pie li a{
+            font-size: 18px;
+            color: azure;
+            }
+        .pie_de_pagina h3{
+            font-size: 20px; 
+            text-align: center;
+            }
+        .contactanos_pie p{
+            font-size: 18px;
+            
+            }
+        .ventas-whatsapp div img{
+            width: 30px;
+            }
+        .maps_pie {
+            align-content: center;
+        }
+        .maps_pie p{
+            padding: 15px 15px 15px 0px;
+            text-align: center; 
+            }
     }
 /*Medidas mobile 320px */
 @media(max-width:320px)
