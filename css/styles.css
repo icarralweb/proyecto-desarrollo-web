@@ -538,8 +538,29 @@ font-size: 18px;
 /*Medidas mobile 320px */
 @media(max-width:320px)
     {
-        .section-clip-on
-        {
-        background-color: rgb(128, 238, 104);
+        .navbar-principal{
+            width: 96%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            padding: none;
+            margin: none;
+            text-align: center;
         }
+        .navbar-principal li a{
+            text-decoration: underline;
+            color:#012d69;
+            font-size: 12px;
+        }
+        .imagen-presentacion-principal img{
+            width: 11.875rem;
+        }
+        .box-testimonio{
+            height: 26.875rem;
+            width: 80%;
+            padding: 25px;
+            border-radius: 2.5rem;
+            margin-top: .625rem;
+            }
     }
