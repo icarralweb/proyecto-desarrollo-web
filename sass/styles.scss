@@ -1,0 +1,20 @@
+
+/*utilities*/
+//@import"./utilities/variables";
+//@import"./utilities/mixins";
+//@import"./utilities/maps";
+
+/*base*/
+@use"./base/reset";
+@use"./base/tipografias";
+
+/*layouts*/
+//@import"./layout/header";
+//@import"./layout/main";
+//@import"./layout/footer";
+
+/*components*/
+//@import"./components/card";
+//@import"./components/navbar";
+
+/*media query - responsive*/
