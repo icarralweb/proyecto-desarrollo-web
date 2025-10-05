@@ -10,11 +10,13 @@
 
 /*layouts*/
 @import"./layout/header";
-//@import"./layout/main";
-//@import"./layout/footer";
+@import"./layout/main";
+@import"./layout/sectiones";
+@import"./layout/footer";
 
 /*components*/
 //@import"./components/card";
-//@import"./components/navbar";
+@import"./components/navbar";
+
 
 /*media query - responsive*/

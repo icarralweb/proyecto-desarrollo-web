@@ -31,7 +31,7 @@ header {
         justify-content: center;
         padding: none;
         div{
-            @include flexheader(flex, center, center);
+            @include flex(flex, center, center);
             button{
                 padding: .9375rem 1.25rem .9375rem 1.25rem;
                 border-radius: 20px;

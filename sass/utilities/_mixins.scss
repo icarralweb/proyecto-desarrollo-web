@@ -1,5 +1,14 @@
-@mixin flexheader($display,$justify,$items){
+@mixin flex($display,$justify,$items){
     display: $display;
     justify-content: $justify;
     align-items: $items;
+};
+
+@mixin flexnav($display,$justify,$liststyle,$gap,$padding,$margin){
+    display: $display;
+    justify-content: $justify;
+    list-style: $liststyle;
+    gap: $gap;
+    padding: $padding;
+    margin: $margin;
 };

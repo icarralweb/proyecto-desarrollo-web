@@ -1,0 +1,87 @@
+.logo_pie{
+    margin-top: .9375rem;
+    margin-left: .625rem;
+    a{
+        img{
+            width: 200px;
+        }
+    }
+};
+
+/**/
+.pie_de_pagina{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: .625rem;
+    justify-content: center;
+    background-color: #012d69;
+    
+    div{
+        h3{
+        color: azure;
+        text-decoration: underline;
+        }
+        p{
+        color: azure;
+        }
+    }
+};
+
+.titulo_pie{
+    h3{
+    margin-top: .9375rem;
+    }
+};
+.navbar_pie{
+    width: 100%;
+    @include flexnav(flex, center, none, 1.5625rem, 15px 15px 15px 0px, none);
+    flex-direction: column;
+    li{
+        a{
+        text-decoration: none;
+        color: azure;
+        &:hover{
+            color: #022453;
+            background-color: map-get($map: $colores, $key:color2);
+            border-radius: 15px;
+            padding: .3125rem;;
+        }
+        }
+        
+    }
+    
+}
+    
+/**/
+
+.maps_pie{
+    width: 100%;
+    margin-top: .9375rem;
+    p{
+    padding: 15px 15px 15px 0px; 
+    }
+    iframe{
+    width: 90%;
+    height: 11.25rem;
+    }
+}
+.ventas-whatsapp{ 
+            display: flex;
+            flex-direction: row;
+            gap: .5rem;
+            div{
+                img{
+            width: 20px;
+            }
+                a{
+                    color: map-get($map: $colores, $key: color2);
+
+                }
+            } 
+            }
+.copyright{
+    background-color: azure;
+    color: map-get($map: $colores, $key:color1 );
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.navbar{
+    width: 100%;
+    @include flexnav(flex, center, none, 2.5rem, none, none);
+    li{
+        a{
+        text-decoration: none;
+        color: map-get($map: $colores, $key: color2);  
+        }
+        &:hover{
+                background-color: map-get($map: $colores, $key: color2); 
+                border-radius: 15px;
+                color: map-get($map: $colores, $key: color1); 
+                }
+    }
+}

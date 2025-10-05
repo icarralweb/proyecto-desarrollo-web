@@ -5,97 +5,15 @@ html{
 
 /*================== Encabezado ==================*/
 
-.navbar-principal{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    padding: none;
-    margin: none;
-}
-    
-.navbar-principal li a{
-    text-decoration: none;
-    color: #022453;
-}
-
-.navbar-principal li a:hover{
-    
-    background-color: #022453;
-    border-radius: 15px;
-    color: azure;
-    padding: 8px;
-}
-
-
 /* ================== Section principales ==================*/
 
 /*.section-presentacion-principal{
     background-color: azure;
 }*/
-.titulos-principales h2{
-    color: #012d69;
-    /*background-color: azure;*/
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 3.125rem;
-    text-decoration: underline;
-}
-.section-clip-on{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: .625rem;
-}
+/*section-kids*/
+
     /*descripcion de producto principal*/
-        .descripcion-articulo-principal{
-            width: 45%;
-            align-self: center;
-            padding: 15px;
-        }
-
-        .descripcion-articulo-principal h1{
-            font-size: 26px;
-            margin-bottom: .9375rem;
-        }
-        .descripcion-articulo-principal p{
-            font-size: 16px;
-            width: 80%;
-            margin-bottom: .9375rem;
-        }
-        .descripcion-articulo-principal button{
-            padding: 10px 1.25rem;
-            background-color: #022453;
-            color: azure;
-            width: 200px;
-            border-radius: 20px;
-            border-color:#022453;
-        }
-        .descripcion-articulo-principal button:hover{
-            background-color: rgb(4, 4, 201);
-            border-color:rgb(4, 4, 201);
-        }
-        .imagen-presentacion-principal{
-            width: 45%;
-            display: grid;
-            grid-template-columns: auto 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            gap: .625rem;
-            padding: .3125rem;
-        }
-        .imagen-presentacion-principal img{
-            width: 18.75rem;
-            grid-column: 1/2;
-            grid-row: 1/4;
-
-        }
-        .imagen-presentacion-principal div p{
-            font-size: 16px;
-            text-align: center;
-            color: #012d69;
-        }
-
+        
         .imagen-presentacion-principal div:nth-child(2){
             
             grid-column: 2/3;
@@ -122,23 +40,8 @@ html{
 .form-iniciar-sesion button{
     justify-self: center;
 }
-/*section-kids*/
-.section-kids{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: .3125rem;
-}
-/*Section carrito principal*/
-.section-carrito-principal{
-    width: 100%;
-    /*background-color: azure;*/
-    display: flex;
-    justify-content: center;
-    gap: 1.25rem;
-    padding: .625rem;
-}
 
+/*Section carrito principal*/
 
 /*================== Testimonios ==================*/
 
@@ -149,7 +52,6 @@ grid-template-columns: 20% 20% 20% 20%;
 gap: 1.5625rem;
 align-items: center;
 justify-content: center;
-/*background-color: azure;*/
 }
 /*caja testimonio*/
 .box-testimonio{
@@ -210,14 +112,7 @@ font-size: 18px;
     height: 31.25rem;
 }
 /*================== Pie de pagina ==================*/
-.logo_pie{
-    /*width: 300px;*/
-    margin-top: .9375rem;
-    margin-left: .625rem;
-}
-.logo_pie a img{
-    width: 200px;
-}
+
 .pie_de_pagina{
     width: 100%;
     display: grid;
@@ -259,28 +154,7 @@ font-size: 18px;
     background-color: azure;
     padding: 8px;
 }
-.contactanos_pie{
-    margin-top: .9375rem;  
-}
-.contactanos_pie p{
-    padding: 15px 15px 10px 0px; 
-}
-.maps_pie{
-    width: 100%;
-    margin-top: .9375rem;
-}
-.maps_pie p{
-    padding: 15px 15px 15px 0px; 
-}
-.maps_pie iframe{
-    width: 90%;
-    height: 11.25rem;
-}
-.copyright{
-    background-color: azure;
-    color: #012d69;
-    text-align: center;
-}
+
 
 /*========== Medidas tablet 768px ==========*/
 @media(max-width:768px)

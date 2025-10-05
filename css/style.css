@@ -85,7 +85,242 @@ header section div div div a:hover {
   margin-bottom: 0.9375rem;
 }
 
+.titulos-principales h2 {
+  color: #022453;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3.125rem;
+  text-decoration: underline;
+}
+
+.section-principales {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem;
+  margin-left: 5%;
+}
+
+html {
+  background-color: #012d69;
+}
+
+.descripcion-articulo-principal {
+  width: 45%;
+  align-self: center;
+  padding: 15px;
+}
+.descripcion-articulo-principal h1 {
+  font-size: 26px;
+  margin-bottom: 0.9375rem;
+}
+.descripcion-articulo-principal p {
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 0.9375rem;
+}
+.descripcion-articulo-principal button {
+  padding: 10px 1.25rem;
+  background-color: #022453;
+  color: azure;
+  width: 200px;
+  border-radius: 20px;
+  border-color: #022453;
+}
+.descripcion-articulo-principal button:hover {
+  background-color: rgb(4, 4, 201);
+  border-color: rgb(4, 4, 201);
+}
+
+.imagen-presentacion-principal {
+  width: 45%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.625rem;
+  padding: 0.3125rem;
+}
+.imagen-presentacion-principal img {
+  width: 18.75rem;
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.imagen-presentacion-principal div p {
+  font-size: 16px;
+  text-align: center;
+  color: #012d69;
+}
+
+.section-carrito-principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 0.625rem;
+}
+
+.section-testimonios {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 1.5625rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
+}
+
+.box-testimonio {
+  height: 29.375rem;
+  padding: 25px;
+  background-color: #012d69;
+  border-radius: 2.5rem;
+  margin-top: 0.625rem;
+  color: azure;
+}
+.box-testimonio div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.box-testimonio div div img {
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+}
+.box-testimonio div div h4 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.banner-pie {
+  width: 95%;
+  margin-left: 7%;
+  /*background-color: azure;
+  height: 11.25rem;*/
+}
+
+.banner-pie-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-items: center;
+  align-items: center;
+}
+
+.box-banner-img {
+  width: 100px;
+}
+
+.box-banner-text {
+  padding: 0.625rem;
+  width: 100%;
+  text-align: center;
+  color: #012d69;
+  font-size: 18px;
+}
+
+.logo_pie {
+  margin-top: 0.9375rem;
+  margin-left: 0.625rem;
+}
+.logo_pie a img {
+  width: 200px;
+}
+
+/**/
+.pie_de_pagina {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 0.625rem;
+  justify-content: center;
+  background-color: #012d69;
+}
+.pie_de_pagina div h3 {
+  color: azure;
+  text-decoration: underline;
+}
+.pie_de_pagina div p {
+  color: azure;
+}
+
+.titulo_pie h3 {
+  margin-top: 0.9375rem;
+}
+
+.navbar_pie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5625rem;
+  padding: 15px 15px 15px 0px;
+  margin: none;
+  flex-direction: column;
+}
+.navbar_pie li a {
+  text-decoration: none;
+  color: azure;
+}
+.navbar_pie li a:hover {
+  color: #022453;
+  background-color: azure;
+  border-radius: 15px;
+  padding: 0.3125rem;
+}
+
+/**/
+.maps_pie {
+  width: 100%;
+  margin-top: 0.9375rem;
+}
+.maps_pie p {
+  padding: 15px 15px 15px 0px;
+}
+.maps_pie iframe {
+  width: 90%;
+  height: 11.25rem;
+}
+
+.ventas-whatsapp {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.ventas-whatsapp div img {
+  width: 20px;
+}
+.ventas-whatsapp div a {
+  color: azure;
+}
+
+.copyright {
+  background-color: azure;
+  color: #022453;
+  text-align: center;
+}
+
 /*components*/
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2.5rem;
+  padding: none;
+  margin: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: azure;
+}
+.navbar li:hover {
+  background-color: azure;
+  border-radius: 15px;
+  color: #022453;
+}
+
 /*media query - responsive*/
 
 /*# sourceMappingURL=style.css.map */

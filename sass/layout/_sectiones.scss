@@ -1,0 +1,116 @@
+.descripcion-articulo-principal{
+            width: 45%;
+            align-self: center;
+            padding: 15px;
+            h1{
+            font-size: 26px;
+            margin-bottom: .9375rem;
+            }
+            p{
+            font-size: 16px;
+            width: 80%;
+            margin-bottom: .9375rem;
+            }
+            button{
+            padding: 10px 1.25rem;
+            background-color: #022453;
+            color: azure;
+            width: 200px;
+            border-radius: 20px;
+            border-color:#022453;
+            &:hover{
+            background-color: rgb(4, 4, 201);
+            border-color:rgb(4, 4, 201);
+            }
+            }
+            
+        }
+.imagen-presentacion-principal{
+            width: 45%;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: .625rem;
+            padding: .3125rem;
+            img{
+            width: 18.75rem;
+            grid-column: 1/2;
+            grid-row: 1/4;
+            }
+            div{
+                p{
+                font-size: 16px;
+                text-align: center;
+                color: #012d69;
+                }
+            }
+        };
+
+.section-carrito-principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: .625rem;
+};
+
+.section-testimonios{
+width: 95%;
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+gap: 1.5625rem;
+align-items: center;
+justify-content: center;
+margin-left: 3%;
+};
+.box-testimonio{
+                height: 29.375rem;
+                padding: 25px;
+                background-color: #012d69;
+                border-radius: 2.5rem;
+                margin-top: .625rem;
+                color: azure;
+                div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                div{
+                    img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 3rem;
+                        }
+                    h4{
+                    margin: 5px 0;
+                    font-size: 18px;
+                    }
+                    }
+                    }
+                };
+
+.banner-pie{
+    width: 95%;
+    margin-left: 7%;
+    /*background-color: azure;
+    height: 11.25rem;*/
+};
+.banner-pie-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-items: center;
+    align-items: center;
+};
+
+.box-banner-img{
+    width: 100px;
+};
+
+.box-banner-text{
+    padding: .625rem;
+    width: 100%; 
+    text-align: center;
+    color: #012d69;
+    font-size: 18px;
+};

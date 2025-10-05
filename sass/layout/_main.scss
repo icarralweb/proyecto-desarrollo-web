@@ -1,0 +1,20 @@
+.titulos-principales{
+    h2{
+    color: map-get($map: $colores, $key:color1);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3.125rem;
+    text-decoration: underline;
+    }
+    
+}
+.section-principales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: .625rem;
+    margin-left: 5%;
+};
+html{
+    background-color: #012d69;
+}
