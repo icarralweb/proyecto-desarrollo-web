@@ -1,15 +1,15 @@
 
 /*utilities*/
 //@import"./utilities/variables";
-//@import"./utilities/mixins";
-//@import"./utilities/maps";
+@import'./utilities/maps';
+@import"./utilities/mixins";
 
 /*base*/
-@use"./base/reset";
-@use"./base/tipografias";
+@import"./base/reset";
+@import"./base/tipografias";
 
 /*layouts*/
-//@import"./layout/header";
+@import"./layout/header";
 //@import"./layout/main";
 //@import"./layout/footer";
 

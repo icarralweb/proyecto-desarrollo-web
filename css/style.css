@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-a {
-  list-style: none;
-}
-
 .roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -20,6 +16,75 @@ a {
 }
 
 /*layouts*/
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 1.25rem;
+  padding: 0.625rem;
+  background-color: #022453;
+}
+header ul li a {
+  text-decoration: none;
+  color: azure;
+}
+header ul li a:hover {
+  background-color: azure;
+  color: #022453;
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
+}
+
+header section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  justify-content: center;
+  padding: none;
+}
+header section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header section div button {
+  padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+  border-radius: 20px;
+  color: #022453;
+  border-color: #022453;
+}
+header section div a img {
+  width: 300px;
+}
+header section div p {
+  text-align: center;
+  color: black;
+}
+header section div div {
+  display: flex;
+  flex-direction: row;
+  padding: 0.625rem;
+  align-items: center;
+}
+header section div div div img {
+  width: 30px;
+}
+header section div div div a {
+  padding-left: 0.625rem;
+  text-decoration: none;
+}
+header section div div div a:hover {
+  color: azure;
+  background-color: #022453;
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
+}
+
+.header-lateral-der {
+  flex-direction: column;
+  margin-bottom: 0.9375rem;
+}
+
 /*components*/
 /*media query - responsive*/
 

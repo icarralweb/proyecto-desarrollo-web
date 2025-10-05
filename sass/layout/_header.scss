@@ -1,0 +1,81 @@
+
+header{
+    
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 1.25rem;
+        padding: .625rem;
+        background-color: map-get($map: $colores, $key: color1);
+        li{
+            a{
+                text-decoration: none;
+                color: map-get($map: $colores, $key: color2);
+                &:hover{
+                    background-color: map-get($map: $colores, $key: color2);
+                    color: map-get($map: $colores, $key: color1);
+                    border-radius: .625rem;
+                    padding: .3125rem;
+                }
+            }
+        }
+    }
+};
+
+header {
+    section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        justify-content: center;
+        padding: none;
+        div{
+            @include flexheader(flex, center, center);
+            button{
+                padding: .9375rem 1.25rem .9375rem 1.25rem;
+                border-radius: 20px;
+                color: map-get($map: $colores, $key: color1);
+                border-color:map-get($map: $colores, $key: color1);
+            }
+            a{
+                img{
+                    width: 300px;
+                }
+            }
+            p{
+                text-align: center;
+                color: black;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                padding: .625rem;
+                align-items: center;
+                div{
+                    img{
+                        width: 30px;
+                    }
+                    a{
+                        padding-left: .625rem;
+                        text-decoration: none;
+                        &:hover{
+                            color: map-get($map: $colores, $key: color2);
+                            background-color: map-get($map: $colores, $key: color1);
+                            border-radius: .625rem;
+                            padding: .3125rem;
+                        }
+                    }
+                }
+            }
+            }
+    }
+};
+
+.header-lateral-der{
+    flex-direction: column;
+    margin-bottom: .9375rem;
+};
+
+
+
