@@ -193,9 +193,8 @@ button:hover {
   display: inline-block; /* Crucial para que el fondo se ajuste al texto */
   padding: 5px 15px; /* Espacio alrededor del texto */
   border-radius: 8px;
-  /* APLICAR LA ANIMACIÓN */
   animation: cambiarFondo 1s infinite alternate linear;
-  /* - cambiarFondo: Nombre de la animación (@keyframes)
+  /*
      - 2s: Duración del ciclo completo
      - infinite: Repetir eternamente 
      - alternate: Invierte la dirección de la animación en cada ciclo, haciendo la transición más suave.
@@ -206,14 +205,29 @@ button:hover {
 @keyframes cambiarFondo {
   0% {
     background-color: #022453;
-    color: azure; /* Rojo claro */
+    color: azure;
   }
-  /*50% {
-      background-color: #99ccff; Azul claro 
-  }*/
   100% {
-    background-color: azure; /* Verde claro */
+    background-color: azure;
     color: #022453;
+  }
+}
+.logo-degrado {
+  display: block;
+  margin: 50px auto;
+  animation: aparecer 4s infinite alternate ease-in-out;
+  /* - 4s: Duración total del ciclo (2s para aparecer + 2s para desaparecer)
+     - infinite: Repite el ciclo sin parar.
+     - alternate: Invierte la animación en cada ciclo. 
+  */
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; /* Inicio: Invisible */
+  }
+  100% {
+    opacity: 1; /* Fin: Visible */
   }
 }
 .descripcion-articulo-principal {

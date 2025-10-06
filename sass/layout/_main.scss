@@ -100,9 +100,8 @@
             padding: 5px 15px; /* Espacio alrededor del texto */
             border-radius: 8px;
 
-            /* APLICAR LA ANIMACIÓN */
             animation: cambiarFondo 1s infinite alternate linear; 
-            /* - cambiarFondo: Nombre de la animación (@keyframes)
+            /*
                - 2s: Duración del ciclo completo
                - infinite: Repetir eternamente 
                - alternate: Invierte la dirección de la animación en cada ciclo, haciendo la transición más suave.
@@ -112,13 +111,29 @@
 @keyframes cambiarFondo {
             0% {
                 background-color: map-get($map: $colores, $key: color1);
-                color: map-get($map: $colores, $key: color2); /* Rojo claro */
+                color: map-get($map: $colores, $key: color2); 
             }
-            /*50% {
-                background-color: #99ccff; Azul claro 
-            }*/
+
             100% {
-                background-color: map-get($map: $colores, $key: color2); /* Verde claro */
+                background-color: map-get($map: $colores, $key: color2); 
                 color: map-get($map: $colores, $key: color1);
+            }
+        }
+
+.logo-degrado{
+            display: block;
+            margin: 50px auto;
+            animation: aparecer 4s infinite alternate ease-in-out; 
+            /* - 4s: Duración total del ciclo (2s para aparecer + 2s para desaparecer)
+               - infinite: Repite el ciclo sin parar.
+               - alternate: Invierte la animación en cada ciclo. 
+            */
+}
+@keyframes aparecer {
+            0% {
+                opacity: 0; /* Inicio: Invisible */
+            }
+            100% {
+                opacity: 1; /* Fin: Visible */
             }
         }
