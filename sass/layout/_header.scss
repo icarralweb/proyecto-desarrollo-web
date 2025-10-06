@@ -75,6 +75,13 @@ header {
 .header-lateral-der{
     flex-direction: column;
     margin-bottom: .9375rem;
+    div{
+        div{
+            img:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
 };
 
 

@@ -113,47 +113,7 @@ font-size: 18px;
 }
 /*================== Pie de pagina ==================*/
 
-.pie_de_pagina{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
-    gap: .625rem;
-    justify-content: center;
-    background-color: #012d69;
-}
-.pie_de_pagina div h3{
-    color: azure;
-    text-decoration: underline;
-}
-.pie_de_pagina div p{
-    color: azure;
-}
-.categorias_pie{
-    margin-top: .9375rem;
-    
-}
-.navbar_pie{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5625rem;
-    padding: 15px 15px 15px 0px; 
-    justify-content: center;
-}
-    
-.navbar_pie li a{
-    text-decoration: none;
-    color: azure;
-}
 
-.navbar_pie li a:hover{
-    
-    color: #022453;
-    border-radius: 15px;
-    background-color: azure;
-    padding: 8px;
-}
 
 
 /*========== Medidas tablet 768px ==========*/
