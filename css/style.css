@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*utilities*/
 /*base*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -50,7 +51,7 @@ header section div {
 header section div button {
   padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
   border-radius: 20px;
-  color: #022453;
+  color: azure;
   border-color: #022453;
 }
 header section div a img {
@@ -78,6 +79,10 @@ header section div div div a:hover {
   background-color: #022453;
   border-radius: 0.625rem;
   padding: 0.3125rem;
+}
+
+.button-header-izq {
+  color: azure;
 }
 
 .header-lateral-der {
@@ -161,6 +166,56 @@ button:hover {
   background-color: #0056b3;
 }
 
+.animation-boton-wa {
+  display: block;
+  animation: salto 1.5s infinite ease-in-out;
+  /* - salto: Nombre de la animación (@keyframes)
+     - 1.5s: Duración total del ciclo (1.5 segundos)
+     - infinite: Repetir eternamente 
+     - ease-in-out: La velocidad de la animación es gradual
+  */
+}
+
+@keyframes salto {
+  0% {
+    transform: translateY(0); /* Posición inicial (abajo) */
+  }
+  50% {
+    transform: translateY(-20px); /* Mitad del ciclo: se mueve 20px hacia arriba (simula el salto) */
+  }
+  100% {
+    transform: translateY(0); /* Vuelve a la posición inicial (aterriza) */
+  }
+}
+.animation-ventas {
+  font-weight: bold;
+  color: #333; /* Color del texto (para contraste) */
+  display: inline-block; /* Crucial para que el fondo se ajuste al texto */
+  padding: 5px 15px; /* Espacio alrededor del texto */
+  border-radius: 8px;
+  /* APLICAR LA ANIMACIÓN */
+  animation: cambiarFondo 1s infinite alternate linear;
+  /* - cambiarFondo: Nombre de la animación (@keyframes)
+     - 2s: Duración del ciclo completo
+     - infinite: Repetir eternamente 
+     - alternate: Invierte la dirección de la animación en cada ciclo, haciendo la transición más suave.
+     - linear: La velocidad de la animación es constante
+  */
+}
+
+@keyframes cambiarFondo {
+  0% {
+    background-color: #022453;
+    color: azure; /* Rojo claro */
+  }
+  /*50% {
+      background-color: #99ccff; Azul claro 
+  }*/
+  100% {
+    background-color: azure; /* Verde claro */
+    color: #022453;
+  }
+}
 .descripcion-articulo-principal {
   width: 45%;
   align-self: center;

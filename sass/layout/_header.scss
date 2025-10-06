@@ -35,7 +35,7 @@ header {
             button{
                 padding: .9375rem 1.25rem .9375rem 1.25rem;
                 border-radius: 20px;
-                color: map-get($map: $colores, $key: color1);
+                color: map-get($map: $colores, $key: color2);
                 border-color:map-get($map: $colores, $key: color1);
             }
             a{
@@ -71,7 +71,9 @@ header {
             }
     }
 };
-
+.button-header-izq{
+    color: map-get($map: $colores, $key: color2);
+};
 .header-lateral-der{
     flex-direction: column;
     margin-bottom: .9375rem;
